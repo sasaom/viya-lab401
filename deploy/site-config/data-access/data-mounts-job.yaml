@@ -1,0 +1,34 @@
+# General example for adding mounts to SAS containers with a 
+# PatchTransformer
+apiVersion: builtin
+kind: PatchTransformer
+metadata:
+  name: data-mounts-job
+patch: |-
+  - op: add
+    path: /template/spec/containers/0/volumeMounts/-
+    value:
+      name: access-clients
+      mountPath: "/access-clients"
+  - op: add
+    path: /template/spec/volumes/-
+    value:
+     name: access-clients
+     nfs:
+       path: /nfs/aaks-pv/access-clients
+       server: 10.0.0.7
+  - op: add
+    path: /template/spec/containers/0/volumeMounts/-
+    value:
+      name: shared-data
+      mountPath: "/nfs/shared"
+  - op: add
+    path: /template/spec/volumes/-
+    value:
+     name: shared-data
+     nfs:
+       path: /nfs/aaks-pv/shared
+       server: 10.0.0.7
+target:
+  kind: PodTemplate
+  annotationSelector: sas.com/sas-access-config=true
