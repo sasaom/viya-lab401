@@ -49,3 +49,9 @@ configMapGenerator:
   literals:
   - SAS_SERVICES_URL=http://lab401.northeurope.cloudapp.azure.com 
   # - SAS_URL_EXTERNAL_VIYA={{ EXTERNAL-PROXY-URL }}
+  #- ACR -----------------------------------------------------------#
+- name: input 
+  behavior: merge
+  literals:
+  - IMAGE_REGISTRY=aomdk.azurecr.io
+#-----------------------------------------------------------------#
