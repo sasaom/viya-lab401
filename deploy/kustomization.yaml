@@ -24,8 +24,9 @@ transformers:
 # Mount information
 # - site-config/{{ DIRECTORY-PATH }}/cas-add-host-mount.yaml
 components:
-- sas-bases/components/security/core/base/full-stack-tls 
-- sas-bases/components/security/network/networking.k8s.io/ingress/nginx.ingress.kubernetes.io/full-stack-tls 
+#- sas-bases/components/security/core/base/full-stack-tls
+- sas-bases/components/security/core/base/truststores-only #NOTLS# #TLS#
+#- sas-bases/components/security/network/networking.k8s.io/ingress/nginx.ingress.kubernetes.io/full-stack-tls 
 patches:
 - path: site-config/storageclass.yaml 
   target:

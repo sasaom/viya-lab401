@@ -1,0 +1,6 @@
+kind: RWXStorageClass
+metadata:
+ name: wildcard
+spec:
+ #storageClassName: sas-azurefile
+ storageClassName: nfs-client
