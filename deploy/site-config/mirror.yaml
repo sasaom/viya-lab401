@@ -1,0 +1,1505 @@
+# This transformer MUST appear after overlays/required/transformers.yaml
+
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-activities-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-activities
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-activities
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-admin-content-loader-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-admin-content-loader
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-admin-content-loader
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-analytics-events-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-analytics-events
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-analytics-events
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-analytics-resources-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-analytics-resources
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-analytics-resources
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-analytics-services-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-analytics-services
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-analytics-services
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-annotations-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-annotations
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-annotations
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-app-registry-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-app-registry
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-app-registry
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-arke-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-arke
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-arke
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-audit-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-audit
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-audit
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-authorization-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-authorization
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-authorization
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-backup-agent-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-backup-agent
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-backup-agent
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-backup-job-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-backup-job
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-backup-job
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-batch-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-batch
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-batch
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-business-rules-services-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-business-rules-services
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-business-rules-services
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-cachelocator-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-cachelocator
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-cachelocator
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-cacheserver-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-cacheserver
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-cacheserver
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-cas-control-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-cas-control
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-cas-control
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-cas-operator-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-cas-operator
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-cas-operator
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-cas-server-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-cas-server
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-cas-server
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-catalog-services-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-catalog-services
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-catalog-services
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-category-execution-provider-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-category-execution-provider
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-category-execution-provider
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-certframe-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-certframe
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-certframe
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-code-debugger-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-code-debugger
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-code-debugger
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-code-debugger-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-code-debugger-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-code-debugger-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-comments-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-comments
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-comments
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-commonfiles-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-commonfiles
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-commonfiles
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-compute-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-compute
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-compute
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-config-init-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-config-init
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-config-init
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-config-reconciler-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-config-reconciler
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-config-reconciler
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-configuration-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-configuration
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-configuration
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-connect-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-connect
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-connect
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-connect-spawner-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-connect-spawner
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-connect-spawner
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-consul-server-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-consul-server
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-consul-server
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-conversation-designer-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-conversation-designer-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-conversation-designer-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-credentials-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-credentials
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-credentials
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crossdomainproxy-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crossdomainproxy
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crossdomainproxy
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-collect-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-collect
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-collect
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-delete-postgres-cluster-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-delete-postgres-cluster
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-delete-postgres-cluster
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-operator-api-server-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-operator-api-server
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-operator-api-server
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-operator-event-manager-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-operator-event-manager
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-operator-event-manager
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-operator-scheduler-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-operator-scheduler
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-operator-scheduler
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-pgadmin-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-pgadmin
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-pgadmin
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-pgbackrest-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-pgbackrest
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-pgbackrest
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-pgbackrest-job-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-pgbackrest-job
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-pgbackrest-job
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-pgbadger-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-pgbadger
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-pgbadger
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-pgo-client-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-pgo-client
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-pgo-client
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-postgres-12-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-postgres-12
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-postgres-12
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-crunchy-data-postgres-operator-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-postgres-operator
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-crunchy-data-postgres-operator
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-explorer-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-explorer-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-explorer-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-flows-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-flows
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-flows
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-mining-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-mining
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-mining
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-mining-models-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-mining-models
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-mining-models
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-mining-project-resources-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-mining-project-resources
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-mining-project-resources
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-mining-results-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-mining-results
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-mining-results
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-plans-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-plans
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-plans
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-profiles-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-profiles
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-profiles
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-quality-services-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-quality-services
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-quality-services
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-server-operator-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-server-operator
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-server-operator
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-sources-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-sources
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-sources
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-data-studio-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-data-studio-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-data-studio-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-db-migrator-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-db-migrator
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-db-migrator
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-decision-manager-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-decision-manager-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-decision-manager-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-decisions-definitions-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-decisions-definitions
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-decisions-definitions
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-decisions-runtime-base-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-decisions-runtime-base
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-decisions-runtime-base
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-deployment-data-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-deployment-data
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-deployment-data
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-deployment-operator-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-deployment-operator
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-deployment-operator
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-device-management-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-device-management
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-device-management
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-documents-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-documents
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-documents
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-drive-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-drive
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-drive
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-drive-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-drive-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-drive-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-environment-manager-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-environment-manager-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-environment-manager-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-esp-load-balancer-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-esp-load-balancer
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-esp-load-balancer
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-esp-oauth2-proxy-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-esp-oauth2-proxy
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-esp-oauth2-proxy
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-esp-operator-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-esp-operator
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-esp-operator
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-event-stream-manager-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-event-stream-manager-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-event-stream-manager-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-event-stream-processing-metering-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-event-stream-processing-metering-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-event-stream-processing-metering-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-event-stream-processing-server-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-event-stream-processing-server-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-event-stream-processing-server-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-event-stream-processing-streamviewer-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-event-stream-processing-streamviewer-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-event-stream-processing-streamviewer-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-event-stream-processing-studio-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-event-stream-processing-studio-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-event-stream-processing-studio-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-feature-flags-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-feature-flags
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-feature-flags
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-files-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-files
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-files
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-folders-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-folders
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-folders
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-fonts-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-fonts
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-fonts
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-forecasting-comparison-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-forecasting-comparison
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-forecasting-comparison
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-forecasting-data-definition-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-forecasting-data-definition
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-forecasting-data-definition
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-forecasting-events-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-forecasting-events
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-forecasting-events
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-forecasting-exploration-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-forecasting-exploration
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-forecasting-exploration
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-forecasting-filters-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-forecasting-filters
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-forecasting-filters
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-forecasting-gateway-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-forecasting-gateway
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-forecasting-gateway
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-forecasting-models-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-forecasting-models
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-forecasting-models
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-forecasting-overrides-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-forecasting-overrides
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-forecasting-overrides
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-forecasting-pipelines-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-forecasting-pipelines
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-forecasting-pipelines
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-geo-enrichment-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-geo-enrichment
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-geo-enrichment
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-graph-builder-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-graph-builder-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-graph-builder-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-graph-templates-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-graph-templates
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-graph-templates
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-identities-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-identities
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-identities
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-import-9-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-import-9
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-import-9
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-import-data-loader-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-import-data-loader
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-import-data-loader
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-information-catalog-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-information-catalog-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-information-catalog-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-insights-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-insights
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-insights
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-job-execution-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-job-execution
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-job-execution
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-job-execution-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-job-execution-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-job-execution-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-job-flow-scheduling-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-job-flow-scheduling
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-job-flow-scheduling
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-kaniko-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-kaniko
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-kaniko
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-krb5-proxy-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-krb5-proxy
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-krb5-proxy
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-launcher-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-launcher
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-launcher
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-lineage-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-lineage-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-lineage-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-links-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-links
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-links
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-localization-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-localization
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-localization
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-logon-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-logon-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-logon-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-mail-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-mail
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-mail
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-maps-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-maps
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-maps
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-maspy-base-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-maspy-base
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-maspy-base
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-microanalytic-score-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-microanalytic-score
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-microanalytic-score
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-ml-pipeline-automation-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-ml-pipeline-automation
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-ml-pipeline-automation
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-model-management-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-model-management
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-model-management
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-model-manager-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-model-manager-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-model-manager-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-model-publish-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-model-publish
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-model-publish
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-model-repository-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-model-repository
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-model-repository
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-model-studio-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-model-studio-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-model-studio-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-natural-language-conversations-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-natural-language-conversations
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-natural-language-conversations
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-natural-language-generation-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-natural-language-generation
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-natural-language-generation
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-natural-language-understanding-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-natural-language-understanding
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-natural-language-understanding
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-notifications-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-notifications
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-notifications
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-office-addin-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-office-addin-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-office-addin-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-opendistro-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-opendistro
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-opendistro
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-opendistro-exporter-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-opendistro-exporter
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-opendistro-exporter
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-opendistro-operator-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-opendistro-operator
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-opendistro-operator
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-opendistro-sysctl-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-opendistro-sysctl
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-opendistro-sysctl
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-operational-qualification-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-operational-qualification
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-operational-qualification
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-orchestration-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-orchestration
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-orchestration
+---
+apiVersion: builtin
+kind: PatchTransformer
+metadata:
+  name: patch-transformer-sas-orchestration-configmap-image-mirror
+patch: |-
+  - op: replace
+    path: /data/image
+    value: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-orchestration:1.69.0-20220127.1643299857554
+  - op: replace
+    path: /data/registry
+    value: aomdk.azurecr.io
+target:
+  kind: ConfigMap
+  labelSelector: orchestration.sas.com/lifecycle=image
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-parse-execution-provider-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-parse-execution-provider
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-parse-execution-provider
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-portable-formats-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-portable-formats
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-portable-formats
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-preferences-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-preferences
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-preferences
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-prepull-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-prepull
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-prepull
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-programming-environment-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-programming-environment
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-programming-environment
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-projects-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-projects
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-projects
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-pyconfig-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-pyconfig
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-pyconfig
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-quality-knowledge-base-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-quality-knowledge-base
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-quality-knowledge-base
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-rabbitmq-server-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-rabbitmq-server
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-rabbitmq-server
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-readiness-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-readiness
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-readiness
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-redis-operator-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-redis-operator
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-redis-operator
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-redis-server-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-redis-server
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-redis-server
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-report-distribution-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-report-distribution
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-report-distribution
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-report-execution-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-report-execution
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-report-execution
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-report-renderer-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-report-renderer
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-report-renderer
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-report-services-group-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-report-services-group
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-report-services-group
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-restore-job-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-restore-job
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-restore-job
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-scheduler-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-scheduler
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-scheduler
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-score-definitions-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-score-definitions
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-score-definitions
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-score-execution-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-score-execution
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-score-execution
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-score-python3-base-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-score-python3-base
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-score-python3-base
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-score-r3-base-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-score-r3-base
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-score-r3-base
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-score-r4-base-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-score-r4-base
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-score-r4-base
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-search-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-search
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-search
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-sentiment-execution-provider-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-sentiment-execution-provider
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-sentiment-execution-provider
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-sssd-server-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-sssd-server
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-sssd-server
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-studio-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-studio
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-studio
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-studio-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-studio-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-studio-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-subject-contacts-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-subject-contacts
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-subject-contacts
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-templates-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-templates
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-templates
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-tenant-job-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-tenant-job
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-tenant-job
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-terms-management-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-terms-management
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-terms-management
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-text-analytics-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-text-analytics
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-text-analytics
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-text-categorization-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-text-categorization
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-text-categorization
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-text-concepts-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-text-concepts
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-text-concepts
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-text-parsing-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-text-parsing
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-text-parsing
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-text-sentiment-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-text-sentiment
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-text-sentiment
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-text-topics-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-text-topics
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-text-topics
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-theme-content-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-theme-content
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-theme-content
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-theme-designer-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-theme-designer-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-theme-designer-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-themes-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-themes
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-themes
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-thumbnails-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-thumbnails
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-thumbnails
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-topic-execution-provider-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-topic-execution-provider
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-topic-execution-provider
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-topic-management-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-topic-management
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-topic-management
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-transfer-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-transfer
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-transfer
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-transformations-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-transformations
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-transformations
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-types-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-types
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-types
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-visual-analytics-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-visual-analytics
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-visual-analytics
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-visual-analytics-administration-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-visual-analytics-administration
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-visual-analytics-administration
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-visual-analytics-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-visual-analytics-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-visual-analytics-app
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-web-data-access-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-web-data-access
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-web-data-access
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-webhooks-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-webhooks
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-webhooks
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-workflow-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-workflow
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-workflow
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-workflow-definition-history-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-workflow-definition-history
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-workflow-definition-history
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: image-transformer-sas-workflow-manager-app-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-workflow-manager-app
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-workflow-manager-app
