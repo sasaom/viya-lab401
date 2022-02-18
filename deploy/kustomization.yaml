@@ -55,3 +55,9 @@ configMapGenerator:
   literals:
   - IMAGE_REGISTRY=aomdk.azurecr.io
 #-----------------------------------------------------------------#
+#- CONSUL-CONFIG -------------------------------------------------#
+- name: sas-consul-config
+  behavior: merge
+  files:
+  - SITEDEFAULT_CONF=site-config/sitedefault.yaml
+#-----------------------------------------------------------------#
