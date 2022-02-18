@@ -1,5 +1,9 @@
 # lab401 infrastructure
 
+
+> https://rndconfluence.sas.com/confluence/display/QDLT/Kubernetes+1.22+Testing+Rules
+
+
 |Component|version|
 |---------|-------|
 |Kubernetes|v1.22.4|
