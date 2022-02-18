@@ -16,6 +16,7 @@ transformers:
 # contains programming-only offerings, comment out the next line 
 - sas-bases/overlays/internal-elasticsearch/sysctl-transformer.yaml
 - sas-bases/overlays/required/transformers.yaml
+- site-config/mirror.yaml                             #ACR#
 - site-config/security/cert-manager-provided-ingress-certificate.yaml 
 - sas-bases/overlays/cas-server/auto-resources/remove-resources.yaml 
 # If your deployment contains programming-only offerings only, comment out the next line
