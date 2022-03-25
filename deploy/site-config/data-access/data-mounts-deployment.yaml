@@ -15,7 +15,7 @@ patch: |-
     value:
      name: access-clients
      nfs:
-       path: /nfs/aaks-pv/access-clients
+       path: /nfs/aks-pv/access-clients
        server: 10.0.0.7
   - op: add
     path: /spec/template/spec/containers/0/volumeMounts/-
@@ -27,7 +27,7 @@ patch: |-
     value:
      name: shared-data
      nfs:
-       path: /nfs/aaks-pv/shared
+       path: /nfs/aks-pv/shared
        server: 10.0.0.7
 target:
   kind: Deployment

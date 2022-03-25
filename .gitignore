@@ -1,9 +1,10 @@
-artifacts/*
-certificates/*
-deploy/operator-base/*
-deploy/sas-bases/*
+**/artifacts
+**/certificates
+**/deploy/operator-base
+**/deploy/sas-bases
 infra/AzureServicePrincipalCerts/aom-infra-sp-cert.pem
 site.yaml
-license/*
-operator-deploy/sas-bases/*
-operator-deploy/operator-base/*
+**/license
+**/old-doc
+**/operator-deploy/sas-bases
+**/operator-deploy/operator-base

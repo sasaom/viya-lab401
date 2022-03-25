@@ -516,6 +516,14 @@ imageTag:
 apiVersion: builtin
 kind: ImageTagTransformer
 metadata:
+  name: image-transformer-sas-decisions-runtime-components-mirror
+imageTag:
+  name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-decisions-runtime-components
+  newName: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-decisions-runtime-components
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
   name: image-transformer-sas-deployment-data-mirror
 imageTag:
   name: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-deployment-data
@@ -1056,7 +1064,7 @@ metadata:
 patch: |-
   - op: replace
     path: /data/image
-    value: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-orchestration:1.69.0-20220127.1643299857554
+    value: aomdk.azurecr.io/viya-4-x64_oci_linux_2-docker/sas-orchestration:1.70.2-20220310.1646928714014
   - op: replace
     path: /data/registry
     value: aomdk.azurecr.io

@@ -122,7 +122,7 @@ K8S_VERSION="1.22.4"
 K8S_NODE_COUNT=1
 AOM_CONTAINER_REGISTRY="aomdk"
 NOSAS_NODEPOOL_NAME="nosas"
-NOSAS_VM_SIZE="Standard_A8m_v2"
+NOSAS_VM_SIZE="Standard_D16d_v5"
 VIYA4_AKS_MANAGED_IDENTITY_NAME="viya401-aks-managed-identity"
 
 echo "> Creating Maknaged Identity $VIYA4_AKS_MANAGED_IDENTITY_NAME for the AKS Cluster $VIYA4_CLUSTER_NAME"
@@ -192,7 +192,7 @@ az aks nodepool add -g $VIYA4_RESOURCE_GROUP \
 #---------------------------------------------------------------------------------
 
 SAS_NODEPOOL_NAME="sas"
-SAS_VM_SIZE="Standard_A8m_v2"
+SAS_VM_SIZE="Standard_D16d_v5"
 
 echo
 echo "> Add NodePool $SAS_NODEPOOL_NAME"
